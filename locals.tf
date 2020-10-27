@@ -33,8 +33,8 @@ locals {
         },
         "mountPoints": [
             {
-                "containerPath": "/home/deploy/persist",
-                "sourceVolume": "bastion-persist-volume"
+                "containerPath": "/tmp/persist",
+                "sourceVolume": "fargate-persist-volume"
             }
         ],
         "name": "bastion-container",

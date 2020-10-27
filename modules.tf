@@ -1,5 +1,5 @@
 module "fargate-service-simple" {
-  source = "git::ssh://git@github.com/pwillis-els/aws-fargate-simple.git?ref=1.0"
+  source = "git::ssh://git@github.com/pwillis-els/aws-fargate-simple.git?ref=1.1"
 
   aws_account_id    =   var.aws_account_id
   region            =   var.region

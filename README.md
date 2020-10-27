@@ -14,7 +14,7 @@ provider "aws" {
 }
 
 module "fargate-service-sshd-simple" {
-  source = "git::ssh://git@github.com/pwillis-els/aws-fargate-sshd-simple.git?ref=1.0"
+  source = "git::ssh://git@github.com/pwillis-els/aws-fargate-sshd-simple.git?ref=1.1"
 
   aws_account_id =   "1234567890"
 
